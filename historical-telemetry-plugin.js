@@ -16,6 +16,7 @@ function HistoricalTelemetryPlugin() {
     
                 return http.get(url)
                     .then(function (resp) {
+                        
                         return resp.data;
                     });
             }

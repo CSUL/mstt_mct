@@ -24,6 +24,5 @@ var port = process.env.PORT || 8080
 
 app.listen(port, function () {
     console.log('Open MCT hosted at http://localhost:' + port);
-    console.log('History hosted at http://localhost:' + port + '/history');
-    console.log('Realtime hosted at ws://localhost:' + port + '/realtime');
+
 });

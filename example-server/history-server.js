@@ -20,4 +20,3 @@ function HistoryServer(spacecraft) {
 }
 
 module.exports = HistoryServer;
-

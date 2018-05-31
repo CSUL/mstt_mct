@@ -18,8 +18,13 @@
   },
   "homepage": "https://github.com/nasa/openmct-tutorial#readme",
   "dependencies": {
+    "event-stream": "^3.3.4",
     "express": "^4.14.1",
     "express-ws": "^3.0.0",
+    "fast-csv": "^2.4.1",
+    "line-by-line": "^0.1.6",
+    "linereader": "^1.1.0",
+    "moment": "^2.22.1",
     "openmct": "nasa/openmct",
     "ws": "^2.0.3"
   }
