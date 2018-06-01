@@ -3,15 +3,15 @@
     "key": "sc",
     "measurements": [
         {
-            "name": "Fuel",
-            "key": "prop.fuel",
+            "name": "mot_shoulder.cmd_pos",
+            "key": "mot_shoulder.cmd_pos",
             "values": [
                 {
                     "key": "value",
                     "name": "Value",
                     "units": "kilograms",
                     "format": "float",
-                    "min": 0,
+                    "min": -100,
                     "max": 100,
                     "hints": {
                         "range": 1
@@ -29,15 +29,93 @@
             ]
         },
          {
-            "name": "Arm Elev",
-            "key": "arm.elevation",
+            "name": "mot_shoulder.pos",
+            "key": "mot_shoulder.pos",
             "values": [
                 {
                     "key": "value",
                     "name": "Value",
                     "units": "kilograms",
                     "format": "float",
-                    "min": 0,
+                    "min": -100,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+         {
+            "name": "mot_shoulder.cmd_vel",
+            "key": "mot_shoulder.cmd_vel",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": -100,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+             {
+            "name": "mot_shoulder.vel",
+            "key": "mot_shoulder.vel",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": -100,
+                    "max": 100,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+          {
+            "name": "mot_shoulder.current",
+            "key": "mot_shoulder.current",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": -100,
                     "max": 100,
                     "hints": {
                         "range": 1
